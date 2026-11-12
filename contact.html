@@ -4,40 +4,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact | Maison on the Hill</title>
-  <meta name="description" content="Contact Maison on the Hill and find our social links." />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <meta name="description" content="Get in touch with Mike and Bree at Maison on the Hill, for brand enquiries, partnerships or general questions." />
+  <link rel="canonical" href="https://maisononthehill.com/contact" />
+  <meta property="og:title" content="Contact | Maison on the Hill" />
+  <meta property="og:description" content="Get in touch with Mike and Bree at Maison on the Hill, for brand enquiries, partnerships or general questions." />
+  <meta property="og:image" content="https://maisononthehill.com/assets/images/hero-image.jpg" />
+  <meta property="og:url" content="https://maisononthehill.com/contact" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 30V14a12 12 0 0 1 24 0v16z' fill='%23b4532a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/site.css?v=1" />
 </head>
 <body>
-  <div class="container">
-    <header class="nav">
-      <div class="brand"><a href="index.html">Maison on the Hill</a></div>
-      <nav class="menu">
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a href="work-with-us.html">Work with us</a>
-        <a href="our-picks.html">Our Picks</a>
-        <a class="pill" href="contact.html">Contact</a>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="kicker">Contact</div>
-      <h1>Links and enquiries</h1>
-      <p class="lead">For brand enquiries, partnerships, or general questions, use the email below. </p>
-
-      <div class="actions">
-        <a class="btn primary" href="mailto:lovattbhr@gmail.com">lovattbhr@gmail.com</a>
-        <a class="btn" href="https://www.youtube.com/@maisononthehill">YouTube</a>
-        <a class="btn" href="https://www.instagram.com/maison.on.the.hill/">Instagram</a>
-        <a class="btn" href="https://www.tiktok.com/@maison.on.the.hill">TikTok</a>
-        <a class="btn" href="https://www.facebook.com/maison.on.the.hill/">Facebook</a>
-      </div>
-
-      <p class="small" style="margin-top:12px;">Swap the # links for your real profiles when you are ready.</p>
-    </section>
-
-    <p class="footer">© <span id="y"></span> Maison on the Hill</p>
-  </div>
-  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+<div class="wrap">
+<header class="site-head">
+  <a class="mark" href="/">Maison on the Hill</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="menu" id="menu"><a href="/projects">Projects</a><a href="/about">About</a><a href="/our-picks">Our picks</a><a href="/work-with-us">Work with us</a><a href="/contact" aria-current="page">Contact</a></nav>
+</header>
+<section class="page-open">
+  <div class="eyebrow">Contact</div>
+  <h1>Say <b>hello</b></h1>
+  <p class="lede">For brand enquiries, partnerships or general questions, email us. We read everything.</p>
+  <div class="cta"><a class="btn fill" href="mailto:lovattbhr@gmail.com">lovattbhr@gmail.com</a></div>
+</section>
+<section class="band">
+  <h2>Follow along</h2>
+  <p class="sub">The latest progress goes up here first.</p>
+  <div class="cta"><a class="btn" href="https://www.youtube.com/@maisononthehill">YouTube</a><a class="btn" href="https://www.instagram.com/maison_on_the_hill/">Instagram</a></div>
+</section>
+<footer class="site-foot">
+  <span>© <span id="y">2026</span> Maison on the Hill</span>
+  <nav><a href="https://www.youtube.com/@maisononthehill">YouTube</a><a href="https://www.instagram.com/maison_on_the_hill/">Instagram</a><a href="/our-picks">Our picks</a><a href="/contact">Contact</a></nav>
+</footer>
+</div>
+<script>
+document.getElementById("y").textContent=new Date().getFullYear();
+var b=document.querySelector(".menu-btn"),m=document.getElementById("menu");
+if(b){b.addEventListener("click",function(){var o=m.classList.toggle("is-open");b.setAttribute("aria-expanded",o);b.textContent=o?"Close":"Menu";});}
+</script>
 </body>
 </html>

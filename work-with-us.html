@@ -4,64 +4,55 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Work with us | Maison on the Hill</title>
-  <meta name="description" content="Brand collaborations with Maison on the Hill." />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <meta name="description" content="Brand collaborations with Maison on the Hill: sponsored YouTube videos, product testing in a real French renovation and garden, short-form content and affiliate partnerships." />
+  <link rel="canonical" href="https://maisononthehill.com/work-with-us" />
+  <meta property="og:title" content="Work with us | Maison on the Hill" />
+  <meta property="og:description" content="Brand collaborations with Maison on the Hill: sponsored YouTube videos, product testing in a real French renovation and garden, short-form content and affiliate partnerships." />
+  <meta property="og:image" content="https://maisononthehill.com/assets/images/hero-image.jpg" />
+  <meta property="og:url" content="https://maisononthehill.com/work-with-us" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 30V14a12 12 0 0 1 24 0v16z' fill='%23b4532a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/site.css?v=1" />
 </head>
 <body>
-  <div class="container">
-    <header class="nav">
-      <div class="brand"><a href="index.html">Maison on the Hill</a></div>
-      <nav class="menu">
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-        <a class="pill" href="work-with-us.html">Work with us</a>
-        <a href="our-picks.html">Our Picks</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="kicker">Brand collaborations</div>
-      <h1>Work with us</h1>
-      <p class="lead">
-        We create cosy, honest renovation and garden content from rural France.
-        If your brand fits our audience and our home, we’d love to chat.
-      </p>
-      <div class="actions">
-        <a class="btn primary" href="mailto:lovattbhr@gmail.com">Email us</a>
-        <a class="btn" href="projects.html">View projects</a>
-      </div>
-      <p class="small" style="margin-top:12px;">Media kit available on request.</p>
-    </section>
-
-    <div class="grid">
-      <div class="card span6">
-        <h3>Collab options</h3>
-        <p>
-          Sponsored YouTube integrations, product demos, renovation and garden testing, short-form content packages,
-          and affiliate partnerships.
-        </p>
-      </div>
-      <div class="card span6">
-        <h3>Why it works</h3>
-        <p>
-          Real-life content, filmed with quality gear, with a consistent style and a clear story.
-          Viewers follow for the progress and the honesty.
-        </p>
-      </div>
-      <div class="card span12">
-        <h3>What brands get</h3>
-        <p class="list">
-          <span>• Clear deliverables agreed in writing</span><br/>
-          <span>• Brand-safe, family-friendly content</span><br/>
-          <span>• Usage rights discussed up front</span><br/>
-          <span>• Transparent affiliate disclosure</span>
-        </p>
-      </div>
-    </div>
-
-    <p class="footer">© <span id="y"></span> Maison on the Hill</p>
+<div class="wrap">
+<header class="site-head">
+  <a class="mark" href="/">Maison on the Hill</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="menu" id="menu"><a href="/projects">Projects</a><a href="/about">About</a><a href="/our-picks">Our picks</a><a href="/work-with-us" aria-current="page">Work with us</a><a href="/contact">Contact</a></nav>
+</header>
+<section class="page-open">
+  <div class="eyebrow">Brand collaborations</div>
+  <h1>Work <b>with us</b></h1>
+  <p class="lede">We make cosy, honest renovation and garden content from rural France. If your brand fits our audience and our home, we'd love to chat.</p>
+  <div class="cta"><a class="btn fill" href="mailto:lovattbhr@gmail.com">Email us</a><a class="btn" href="/projects">View projects</a></div>
+  <p class="small" style="margin-top:14px">Media kit available on request.</p>
+</section>
+<section class="band">
+  <div class="two">
+    <div><h3>How we can work together</h3><p>Sponsored YouTube videos, product demos, testing in a real renovation and garden, short-form content packages, and affiliate partnerships.</p></div>
+    <div><h3>Why it works</h3><p>Real-life content, filmed with good gear, in a consistent style with a clear story. People follow for the progress and the honesty.</p></div>
   </div>
-  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</section>
+<section class="band">
+  <h2>What brands get</h2>
+  <p class="sub">Simple, clear and agreed up front.</p>
+  <ul class="ticks"><li>Clear deliverables agreed in writing</li><li>Brand-safe, family-friendly content</li><li>Usage rights discussed up front</li><li>Clear affiliate and sponsorship labels</li></ul>
+</section>
+<section class="band">
+  <div class="note"><p>Tell us about your brand and what you have in mind.</p><div class="cta"><a class="btn fill" href="mailto:lovattbhr@gmail.com">Email us</a></div></div>
+</section>
+<footer class="site-foot">
+  <span>© <span id="y">2026</span> Maison on the Hill</span>
+  <nav><a href="https://www.youtube.com/@maisononthehill">YouTube</a><a href="https://www.instagram.com/maison_on_the_hill/">Instagram</a><a href="/our-picks">Our picks</a><a href="/contact">Contact</a></nav>
+</footer>
+</div>
+<script>
+document.getElementById("y").textContent=new Date().getFullYear();
+var b=document.querySelector(".menu-btn"),m=document.getElementById("menu");
+if(b){b.addEventListener("click",function(){var o=m.classList.toggle("is-open");b.setAttribute("aria-expanded",o);b.textContent=o?"Close":"Menu";});}
+</script>
 </body>
 </html>
